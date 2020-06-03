@@ -1,0 +1,86 @@
+{
+    "language": "ru",
+    "messages": [
+        {
+            "id": "Hello world!",
+            "message": "Hello world!",
+            "translation": "Привет, мир!"
+        },
+        {
+            "id": "Hello",
+            "message": "Hello",
+            "translation": "Привет, %[1]v",
+            "placeholders": [
+                {
+                    "id": "World",
+                    "string": "%[1]v",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "\"world!\""
+                }
+            ]
+        },
+        {
+            "id": "Wrong parameter: {Parameter}",
+            "message": "Wrong parameter: {Parameter}",
+            "translation": "Неправильный параметр: %[1]s",
+            "placeholders": [
+                {
+                    "id": "Parameter",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "parameter"
+                }
+            ]
+        },
+        {
+            "id": "{Person} is visiting {Place}!",
+            "message": "{Person} is visiting {Place}!",
+            "translation": "%[1]s находится в %[2]s",
+            "placeholders": [
+                {
+                    "id": "Person",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "person"
+                },
+                {
+                    "id": "Place",
+                    "string": "%[2]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 2,
+                    "expr": "place"
+                }
+            ]
+        },
+        {
+            "id": "{M} miles traveled ({M_1})",
+            "message": "{M} miles traveled ({M_1})",
+            "translation": "%.2[1]f миль пройдено (%[1]f)",
+            "placeholders": [
+                {
+                    "id": "M",
+                    "string": "%.2[1]f",
+                    "type": "float64",
+                    "underlyingType": "float64",
+                    "argNum": 1,
+                    "expr": "m"
+                },
+                {
+                    "id": "M_1",
+                    "string": "%[1]f",
+                    "type": "float64",
+                    "underlyingType": "float64",
+                    "argNum": 1,
+                    "expr": "m"
+                }
+            ]
+        }
+    ]
+}
