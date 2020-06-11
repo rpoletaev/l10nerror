@@ -13,11 +13,6 @@ import (
 	"gopkg.in/yaml.v2"
 )
 
-type Localizer interface {
-	Localize(id string, lang language.Tag) string
-	LocalizeParams(id string, lang language.Tag, params interface{}) string
-}
-
 type Config struct {
 	// Format format of translation files
 	Format string
