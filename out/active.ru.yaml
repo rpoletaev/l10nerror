@@ -1,0 +1,20 @@
+PersonCats:
+  few: 'У {{.Name}} есть {{.Count}} коты.'
+  hash: sha1-e0aace783982e635707d2e4da79d4962ead0ade3
+  many: 'У {{.Name}} есть {{.Count}} котов.'
+  one: 'У {{.Name}} есть {{.Count}} кот.'
+  other: 'У {{.Name}} есть {{.Count}} коты.'
+invoices:
+  description: The number of invoices a person has
+  few: You have {{.Count}} invoices
+  hash: sha1-d42fb2168b7ecfe3c6b58f0fed83c899bae3fafd
+  many: You have {{.Count}} invoices
+  one: You have {{.Count}} invoices
+  other: You have {{.Count}} invoices
+ErrAlreadyExists:
+  description: Error уже существует
+  few: 'уже существует: {{.Entity}}'
+  hash: sha1-cef5b4f2660255b08bb4eb6a582d18f420148e91
+  many: 'уже существует: {{.Entity}}'
+  one: 'уже существует: {{.Entity}}'
+  other: 'уже существует: {{.Entity}}'
